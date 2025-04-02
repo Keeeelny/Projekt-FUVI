@@ -3,44 +3,45 @@
 
 ## 1. Přehled projektu
 ### **Název projektu:** SmartFridge AI  
-Chytrá lednice vybavená umělou inteligencí (AI) a kamerami, která automaticky sleduje obsah, upozorňuje na blížící se expiraci potravin a navrhuje recepty na základě dostupných surovin.
+Představujeme chytrou lednici, která využívá umělou inteligenci (AI) a kamery k automatickému sledování obsahu. Tato technologie nejenže upozorňuje na blížící se expiraci potravin, ale také navrhuje recepty na základě aktuálních zásob. Jde o moderní řešení, které má potenciál zjednodušit každodenní život a snížit plýtvání jídlem.
 
-## 2. Proč tento projekt?
-- **Problém:** Lidé často zapomínají na potraviny v lednici, které se zkazí, nebo nevědí, co z nich připravit.
-- **Řešení:** Efektivní správa zásob, snížení plýtvání jídlem a podpora zdravějšího životního stylu.
-- **Motivace:** Přispět ke globálnímu snížení plýtvání potravinami a usnadnit každodenní rozhodování v kuchyni.
+## 2. Proč jsme se rozhodli pro tento projekt?
+- **Problém:** Každý to zná – otevřete lednici a najdete potraviny, které už nejsou použitelné, nebo nevíte, co z nich uvařit. Podle statistik lidé ročně vyhodí obrovské množství jídla, což má nejen ekonomické, ale i ekologické dopady.
+- **Řešení:** Chytrá lednice by mohla tento problém vyřešit tím, že pomůže lépe spravovat zásoby a efektivněji je využívat.
+- **Motivace:** Chtěli jsme vytvořit něco praktického, co by mohlo pomoci domácnostem i restauracím lépe pracovat s potravinami a přispět ke snížení plýtvání.
 
-## 3. Technologie a data
+## 3. Jak to funguje?
 - **Zdroje dat:**
-  - Kamery uvnitř lednice monitorující obsah.
-  - Databáze etiket a receptů pro rozpoznání produktů a návrhy jídel.
-- **Použité technologie:**
-  - Počítačové vidění pro identifikaci potravin.
-  - Strojové učení pro odhad expirace.
-  - Zpracování přirozeného jazyka (NLP) pro doporučení receptů.
+  - Kamery uvnitř lednice sledují obsah v reálném čase.
+  - Databáze etiket a receptů poskytují informace o produktech a inspiraci na vaření.
+- **Technologie:**
+  - Počítačové vidění umožňuje rozpoznat jednotlivé potraviny.
+  - Strojové učení odhaduje data expirace na základě typu produktu.
+  - NLP (zpracování přirozeného jazyka) generuje recepty podle dostupných surovin.
 
-## 4. Využití
-- **Cílová skupina:** Domácnosti, restaurace, chytré kuchyně.
-- **Použití:** Mobilní aplikace propojená s lednicí nebo webové rozhraní pro správu zásob.
+## 4. Kdo by mohl chytrou lednici využít?
+- **Domácnosti:** Užitečné pro rodiny i jednotlivce, kteří chtějí mít přehled o svých zásobách.
+- **Restaurace:** Pomůže s efektivním plánováním ingrediencí a minimalizací odpadu.
+- **Chytré kuchyně:** Ideální pro propojení s dalšími zařízeními v rámci chytré domácnosti.
 
 ## 5. Výzvy a omezení
-- **Výzvy:**
-  - Rozpoznávání neoznačených potravin nebo vařených jídel.
-  - Přesnost závislá na kvalitě obrazu a etiketách.
-- **Omezení:** Manuální zadávání některých údajů (např. data expirace).
+- **Co zatím neumíme:**
+  - Rozpoznávání vařených pokrmů nebo produktů bez štítků.
+  - Automatické doplňování informací o ručně vložených potravinách.
+- **Technologická omezení:** Přesnost rozpoznávání závisí na kvalitě obrazu a designu etiket.
 
-## 6. Budoucí vývoj
-- **Plány:**
-  - Rozšíření databáze potravin.
-  - Implementace rozšířené reality (AR) pro vizualizaci obsahu lednice.
-  - Integrace s online obchody pro automatické objednávky chybějících položek.
-- **Možnosti rozšíření:** Propojení s dalšími chytrými spotřebiči v domácnosti.
+## 6. Kam dál? Budoucnost projektu
+- **Rozšíření funkcí:**
+  - Implementace rozšířené reality (AR), která by umožnila vizualizovat obsah lednice přímo na displeji.
+  - Propojení s online obchody pro automatické objednávání chybějících položek.
+  - Větší databáze produktů pro přesnější identifikaci.
+- **Škálovatelnost:** Integrace s dalšími chytrými spotřebiči (např. trouba nebo myčka) pro komplexní správu kuchyně.
 
 ## 7. Inspirace a zdroje
-- **Inspirace:** Samsung Family Hub, LG InstaView ThinQ.
-- **Použité technologie:** OpenCV, TensorFlow, Tesseract OCR.
+- **Inspirace:** Samsung Family Hub, LG InstaView ThinQ – tyto produkty ukazují, že technologie v domácnosti může být nejen funkční, ale i intuitivní.
+- **Použité technologie:** OpenCV pro počítačové vidění, TensorFlow pro strojové učení a Tesseract OCR pro rozpoznávání textu.
 
-Tento projekt představuje modernizaci domácností a efektivnější využívání zdrojů.
+Tento projekt je naším pokusem přiblížit budoucnost do každodenního života. Věříme, že chytré lednice mohou být klíčem k udržitelnější domácnosti a zároveň usnadnit každodenní rozhodování v kuchyni.
 
 Citace:
 [1] https://smartmania.cz/lednice-od-samsungu-budou-jeste-chytrejsi-samy-za-vas-objednaji-chybejici-potraviny/
